@@ -111,3 +111,28 @@ eg: a family - parents pass on traits to their children but not to their pet dog
 u can also have traits of ur own that are not inherited from parents (override the parent's methods)
 
 it allows a class (child class) to acquire properties and methods of another class (parent class), to reduce the duplication of code and to promote code reusability
+
+it has a is-a relationship (eg: a car is a vehicle - here car is the child class and vehicle is the parent class)
+
+## Polymorphism
+means "many forms"
+it allows objects of different classes to be treated as if they are objects of a same type, but behave differently based on their class specific implementation
+helps us to write a method that can work for different types of objects
+
+example: 
+we have a employee class:
+with a function - work(): void;
+these will be other classes:
+- manager (he will //manage// the team)
+- developer (he will //code//)
+- tester (he will //test//)
+
+all of them are employees but they have different behaviors
+
+## Composition
+is a "has-a" relationship
+we use it when we think that inheritance is not the right choice
+
+example: 
+a car has an engine - car is the whole object and engine is the part
+def - composition is a design principle where a class is composed of one or more objects of other classes to reuse their functionality , instead of inheriting from them, where the composed objects have a strong ownership relationship and cannot exist independently
