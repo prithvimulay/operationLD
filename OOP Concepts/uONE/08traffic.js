@@ -1,4 +1,5 @@
 /*
+Enum practice
 Exercise 1: Traffic Light
 Design Traffic Light Class
 easy

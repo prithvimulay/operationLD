@@ -1,4 +1,5 @@
 /*
+Basic class and obj practice
 # Exercise 2: Library Book
 Design Library Book Class
 Problem: Create a Book class for a library management system.
@@ -30,7 +31,7 @@ class Book {
     }
 
     borrowBook(){
-        // if the book is 
+        // if the book is available - make it isAvailable = false and return true - else return false
         if(this.#isAvailable){
             this.#isAvailable = false;
             return true;

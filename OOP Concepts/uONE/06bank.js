@@ -1,4 +1,5 @@
 /*
+Basic class and obj practice
 # Exercise 1: Bank Account
 Design Bank Account Class
 Problem: Create a BankAccount class that manages a simple bank account with deposit, withdrawal, and balance checking functionality.
@@ -49,18 +50,15 @@ class BankAccount {
     }
 }
 
-function main(){
-    
-    const account1 = new BankAccount("A101", "Sam");
+   
+const account1 = new BankAccount("A101", "Sam");
 
-    const add = account1.deposit(100);
-    console.log(`current bal is ${account1.getBalance()}`);
+const add = account1.deposit(100);
+console.log(`current bal is ${account1.getBalance()}`);
 
-    const remove = account1.withdraw(500);
-    console.log(`new bal is ${account1.getBalance()}`);
+const remove = account1.withdraw(500);
+console.log(`new bal is ${account1.getBalance()}`);
 
-}
-main();
 
 
 /*

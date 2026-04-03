@@ -1,4 +1,5 @@
 /*
+Enum practice
 Exercise 2: HTTP Status Code
 Implement HTTP Status Code
 medium
